@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Sehnsucht';
+    src: url('Sehnsucht.ttf');
+    font-family: 'Maiden';
+    src: url('Maiden.ttf');
+  }
+
+/* Navigation Bar */
+.dropdown-menu {
+    color: #F4900C;
+    background-color:  #F4900C;
+}
+
+.menu {
+    font-size: 35px;
+}
+
+.dropdownMenuLink {
+    color: #F4900C;
+    background-color: #000000;
+    border: none;
+    font-size: 35px;
+}
+
+.btn:hover {
+    background-color: #F4900C;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: black;
+    border-color:  #F4900C;
+}
+
+.dropdown-item {
+    color: #000000;
+    background-color: #F4900C;
+    font-size: 25px;
+    padding: none;
+    opacity: 0.8;
+}
+
+
+/* Home page */
+
+.containerbanner {
+    position: relative;
+    text-align: center;
+
+  }
+
+
+.bannerhome {
+    position: absolute;
+    font-family: 'Maiden';
+    top: 37%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    color: #F4900C;
+    font-size: 7vw;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.bannerhometext {
+    position: absolute;
+    top: 72%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 237, 209);
+    font-size: 3vw;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.bannerimage {
+    z-index: -1;
+    width: auto;
+    height: auto;
+}
+
+.credit {
+    color: #666666;
+    text-align: right;
+    font-size: 1.5vw;
+    color: white;
+}
+
+/* Recipes */
+
+.ingredientsmethodtunes {
+    text-decoration: underline;
+}
+
+.recipedescription {
+    color: #F4900C;
+    font-style: italic;
+    text-shadow: 1px 1px #000000
+}
+
+.recipeimage {
+    width: 70%;
+    border-radius: 1vw;
+    border-color: #F4900C;
+    border-style: double;
+}
+
+iframe {
+    width: 100%;
+    height: 50%;
+}
+
+
+/* General text styling */
+
+.banner {
+    color: #F4900C;
+    font-size: 7vw;
+    font-family: 'Maiden';
+    background-color: black;
+    padding: none;
+}
+
+h2 {
+    font-family: 'Nanum Brush Script';
+    font-size: 4vw;
+    color: #666666;
+}
+
+
+h3 {
+    font-family: 'Nanum Brush Script';
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(252, 237, 209);
+
+}
+
+p {
+    font-family: 'Nanum Brush Script';
+    font-size: 30px; 
+    color: rgb(252, 237, 209);
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Nanum Brush Script';
+    font-size: 25px;
+    color: rgb(252, 237, 209);
+  }
+
+ol {
+    list-style-position: outside;
+    text-align: left;
+    font-family: 'Nanum Brush Script';
+    font-size: 25px; 
+    color: rgb(252, 237, 209);
+}
+
+a {
+    color: #F4900C;
+}
+
+a:hover {
+    color: rgb(252, 237, 209);
+}
+
+body {
+    background-color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+.col-4 {
+    font-family: 'Nanum Brush Script';
+}
+
+
+
+
+
+
+
+

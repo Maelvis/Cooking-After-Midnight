@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script type="text/javascript" src="recipes.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Brush+Script|New+Rocker|Rock+Salt&display=swap" rel="stylesheet">
     <title>Foxy Recipe Website</title>
     <meta charset="UTF-8">
@@ -42,62 +43,70 @@
   <br>
 
 <!--First Recipe-->
-    <div class="row" id="recipe1">
-        <div class="col-12">
-         <h3>Greek Lentil Stew of Power</h3>
-        </div>
+
+<div class="row" id="recipe1">
+    <div class="col-12">
+     <h3>Greek Lentil Stew of Power</h3>
     </div>
-        <div class="row">
-          <div class="col-6">
-            <img src="lentilstew.jpg" class="recipeimage">
-          </div>
-          <div class="col-6">
-            <p class="recipedescription">The meal that every Greek child hates, because it's "too healthy" and every adult loves, because it's simply delicious. Serve without the feta and you have an amazing vegan dish!</p>
-          </div>
-        </div>
-<br>
+</div>
     <div class="row">
-        <div class="col-4">
-            <p class="ingredientsmethodtunes">Ingredients</p>
-            <p>(For 4-6 portions)</p>
-            <ul>
-                <li>250 g lentils</li>
-                <li>2 tablespoons of olive oil</li>
-                <li>1 onion</li>
-                <li>2 celery sticks</li>
-                <li>4 cloves of garlic, finely chopped</li>
-                <li>2 bay leaves</li>
-                <li>2 teaspoons cumin</li>
-                <li>1 or 2 teaspoons cayenne pepper</li>
-                <li>1 tin chopped tomatoes</li>
-                <li>2 vegetable cubes in 1.5 litres of water</li>
-                <li>salt and pepper</li>
-            </ul>
-            <p>To Serve</p>
-              <ul>
-                <li>Bread</li>
-                <li>Feta</li>
-              </ul>
-        </div>
-        <div class="col-4">
-            <p class="ingredientsmethodtunes">Method</p>
-            <br>
-            <ol>
-                <li>Place a large pot over medium heat and add some olive oil.</li>
-                <li>Finely chop the onions and add them in the pot. Fry them for around 5 minutes.</li>
-                <li>Coarsely chop the carrots and celery and add to the pot. Fry for another 5 minutes.</li>
-                <li>Add the bay leaves, cumin, cayenne and garlic and fry for 1 minute. </li>
-                <li>Stir in the lentils, tomatoes and stock</li>
-                <li>Cover the pot and allow to simmer on medium heat for 45 minutes.</li>
-                <li>Check that the lentils are soft, and add salt and pepper to taste.</li>
-            </ol>
-        </div>
-        <div class="col-4">
-            <p class="ingredientsmethodtunes">Tunes</p> 
-            <br>
-            <iframe src="https://open.spotify.com/embed/playlist/2OkwsujgVMiv8gbXH7IJBI" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        </div> 
+      <div class="col-6">
+        <img src="lentilstew.jpg" class="recipeimage">
+      </div>
+      <div class="col-6">
+        <p class="recipedescription">The meal that every Greek child hates, because it's "too healthy" and every adult loves, because it's simply delicious. Serve without the feta and you have an amazing vegan dish!</p>
+      </div>
+    </div>
+<br>
+<div class="row tab">
+    <div class="col-4">
+      <button class="ingredientsmethodtunes tablinks ingredientsbutton">Ingredients</button>
+    </div>
+    <div class="col-4">
+      <button class="ingredientsmethodtunes tablinks methodbutton">Method</button>
+    </div>
+    <div class="col-4">
+      <p class="ingredientsmethodtunes">Tunes</p>
+    </div>
+</div>
+    <div class="row">
+    <div class="col-8 ingredientstab tabcontent">
+        <p>(For 4-6 portions)</p>
+        <ul>
+            <li>250 g lentils</li>
+            <li>2 tablespoons of olive oil</li>
+            <li>1 onion</li>
+            <li>2 celery sticks</li>
+            <li>4 cloves of garlic, finely chopped</li>
+            <li>2 bay leaves</li>
+            <li>2 teaspoons cumin</li>
+            <li>1 or 2 teaspoons cayenne pepper</li>
+            <li>1 tin chopped tomatoes</li>
+            <li>2 vegetable cubes in 1.5 litres of water</li>
+            <li>salt and pepper</li>
+        </ul>
+        <p>To Serve</p>
+          <ul>
+            <li>Bread</li>
+            <li>Feta</li>
+          </ul>
+      </div>
+    <div class="col-8 methodtab tabcontent">
+        <br>
+        <ol>
+            <li>Place a large pot over medium heat and add some olive oil.</li>
+            <li>Finely chop the onions and add them in the pot. Fry them for around 5 minutes.</li>
+            <li>Coarsely chop the carrots and celery and add to the pot. Fry for another 5 minutes.</li>
+            <li>Add the bay leaves, cumin, cayenne and garlic and fry for 1 minute. </li>
+            <li>Stir in the lentils, tomatoes and stock</li>
+            <li>Cover the pot and allow to simmer on medium heat for 45 minutes.</li>
+            <li>Check that the lentils are soft, and add salt and pepper to taste.</li>
+        </ol>
+    </div>
+    <div class="col-4 iframe"> 
+        <iframe src="https://open.spotify.com/embed/playlist/2OkwsujgVMiv8gbXH7IJBI" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  </div>
 
 <br>
 

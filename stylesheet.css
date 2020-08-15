@@ -86,13 +86,6 @@
 
 /* Recipes */
 
-.ingredientsmethodtunes {
-    border: 5px dotted #F4900C;
-    padding: 14px 16px;
-    text-align: center;
-
-}
-
 .recipedescription {
     color: #F4900C;
     font-style: italic;
@@ -107,19 +100,30 @@
     border-style: double;
 }
 
-.tab button {
-    font-family: 'Nanum Brush Script';
-    font-size: 30px; 
-    color: rgb(252, 237, 209);
-    border: 5px dotted #F4900C;
+.nav-item :hover {
     cursor: pointer;
-    background-color: #000000;
-    transition: 0.3s;
 }
 
-.tabcontent {
-    text-align: center;
+.ingredientsbutton {
+    background-color: #FFCC4D;
 }
+
+.ingredientstab {
+    background-color: #FFCC4D;
+    color: #666666;
+    text-align: left;
+}
+
+.methodbutton {
+    background-color: #F4900C;
+    color: #000000;
+}
+
+.methodtab {
+    color: #666666;
+    text-align: left;
+}
+
 
 .iframe {
     width: 100%;
@@ -149,31 +153,27 @@ h3 {
     font-family: 'Nanum Brush Script';
     font-size: 35px;
     font-weight: bold;
-    color: rgb(252, 237, 209);
+    color: #666666;
 
 }
 
 p {
     font-family: 'Nanum Brush Script';
     font-size: 30px; 
-    color: rgb(252, 237, 209);
+    color: #666666;
 }
 
 ul {
     list-style-position: inside;
-    text-align: center;
     list-style-type: none;
     font-family: 'Nanum Brush Script';
     font-size: 25px;
-    color: rgb(252, 237, 209);
   }
 
 ol {
     list-style-position: outside;
-    text-align: left;
     font-family: 'Nanum Brush Script';
-    font-size: 25px; 
-    color: rgb(252, 237, 209);
+    font-size: 25px;
 }
 
 a {
